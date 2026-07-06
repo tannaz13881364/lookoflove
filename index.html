@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For You</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<div class="container">
+
+    <h1>Oops, we forgot our anniversary.</h1>
+
+    <p>Will you let me make it up to you?</p>
+
+    <div class="buttons">
+
+        <button class="yes-btn" onclick="window.location.href='page2.html'">
+            Yes
+        </button>
+
+        <button class="no-btn" onclick="showError()">
+            No
+        </button>
+
+    </div>
+
+</div>
+
+<div id="popup" class="popup">
+
+    <div class="popup-content">
+
+        <h2>Error</h2>
+
+        <p>You must choose "Yes" to continue</p>
+
+        <button onclick="closePopup()">Okay</button>
+
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
