@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Still Love Me?</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container" id="mainBox">
+
+    <h1>I know I forgot..</h1>
+
+    <p>but do you still love me?</p>
+
+    <div class="buttons">
+
+        <button class="yes-btn" onclick="loveAccepted()">
+            Yes
+        </button>
+
+        <button class="no-btn" onclick="showError()">
+            No
+        </button>
+
+    </div>
+
+</div>
+
+<div id="heart-container"></div>
+
+<div id="popup" class="popup">
+
+    <div class="popup-content">
+
+        <h2>System Error</h2>
+
+        <p>Wrong answer</p>
+
+        <button onclick="closePopup()">Try Again Sweetheart</button>
+
+    </div>
+
+</div>
+
+<script src="js/page2.js"></script>
+
+</body>
+</html>
